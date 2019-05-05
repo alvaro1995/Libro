@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link href="~/assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="~/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/browser.min.js"></script>
+    <script src="~/assets/js/breakpoints.min.js"></script>
+    <script src="~/assets/js/util.js"></script>
+    <script src="~/assets/js/main.js"></script>
+
+</head>
+<body>
+    <br>
+    <div class="container body-content">
+        @RenderBody()
+        
+        <footer id="footer">
+            <center><p>Copyright &copy; @DateTime.Now.Year - Todos los derechos reservados</p></center>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
